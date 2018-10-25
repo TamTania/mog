@@ -60,3 +60,35 @@ ul li {
 #portfolio * {
 	z-index: 2;
 }
+
+.photo-thumb {
+	text-align: center;
+}
+
+.photo-thumb img {
+	width: 80%;
+}
+
+.author-text {
+	padding: 20px 0 20px 0;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.photo-content {
+	overflow: hidden;
+	text-align: center;
+}
+
+@media (max-width: 991px) {
+	#portfolio .portfolio-item .portfolio-link .caption{
+		opacity: 1;
+		background: rgba(58,54,54,.7);
+	}
+}
+
+@media (max-width: 767px) {
+	.name {
+		display: none;
+	}
+}

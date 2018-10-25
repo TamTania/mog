@@ -327,14 +327,6 @@ article {
     width: 100%;
 }
 
-.photo-thumb {
-    text-align: center;
-}
-
-.photo-thumb img {
-    height: 80vh;
-}
-
 a.more-link {
     font-size: 12px;
     letter-spacing: 1px;
@@ -851,7 +843,6 @@ footer instragram
 .footer-widget-section {
     color: #fff;
     background: #333333;
-
 }
 
 .footer-widget .widget-title {
@@ -1055,15 +1046,15 @@ blog css
     background-color: #60c7eb;
     border: 1px solid #60c7eb;
     font-size: 14px;
-    height: 35px;
+    height: 30px;
     width: 105px;
-    line-height: 35px;
+    line-height: 30px;
     padding: 0;
     border-radius: 0;
-    margin: 30px 6px 30px 0;
+    margin: 10px 6px 10px 0;
 }
 
-.decoration a:visited {
+.decoration a:visited{
     color: #fff;
     border: 1px solid #60c7eb;
     background-color: #60c7eb;
