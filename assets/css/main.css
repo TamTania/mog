@@ -92,3 +92,20 @@ ul li {
 		display: none;
 	}
 }
+
+#portfolio .portfolio-item .portfolio-link .visible {
+	opacity: 1;
+	background: rgba(58,54,54,.7);
+}
+
+.cover {
+	max-height: 300px;
+	display : block;
+	margin : auto;
+}
+@media (min-width: 992px) {
+	#portfolio .portfolio-item .portfolio-link .visible:hover {
+		opacity: 0;
+		background: rgba(58, 54, 54, .7);
+	}
+}
